@@ -1,0 +1,20 @@
+@use './var.scss';
+@use './space.scss';
+
+@mixin linkActionSmall {
+	color: var.color('primary');
+	position: relative;
+	padding-right: calc(space.space(2) + 5px);
+
+	&::after {
+		display: block;
+		content: '';
+		width: 5px;
+		height: 14;
+		background-image: url('/svg/smallArrowAction.svg');
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 0;
+		top: calc(50% - 4px);
+	}
+}
