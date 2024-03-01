@@ -127,7 +127,7 @@
   content: "";
   width: 5px;
   height: 14;
-  background-image: url("/svg/smallArrowAction.svg");
+  background-image: url("/svg/apple/smallArrowAction.svg");
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -175,7 +175,7 @@
   content: "";
   width: 7px;
   height: 12;
-  background-image: url("/svg/arrowAction.svg");
+  background-image: url("/svg/apple/arrowAction.svg");
   position: absolute;
   right: 0;
   top: calc(50% - 6px);
@@ -235,47 +235,47 @@
 }
 
 .product--iphone-pro {
-  background-image: url(/img/iphone_pro.png);
+  background-image: url(/img/apple/iphone_pro.png);
   background-color: #000;
 }
 
 .product--iphone {
-  background-image: url(/img/iphone.png);
+  background-image: url(/img/apple/iphone.png);
   background-color: #fafafa;
 }
 
 .product--trade-in {
-  background-image: url(/img/trade_in.png);
+  background-image: url(/img/apple/trade_in.png);
   background-color: #FBFBFD;
 }
 
 .product--conference {
-  background-image: url(/img/conference.png);
+  background-image: url(/img/apple/conference.png);
   background-color: #000;
 }
 
 .product--iwatch {
-  background-image: url(/img/iwatch.png);
+  background-image: url(/img/apple/iwatch.png);
   background-color: #000;
 }
 
 .product--ipad {
-  background-image: url(/img/ipad.png);
+  background-image: url(/img/apple/ipad.png);
   background-color: #FBFBFB;
 }
 
 .product--small_business {
-  background-image: url(/img/small_business.png);
+  background-image: url(/img/apple/small_business.png);
   background-color: #000;
 }
 
 .product--gift {
-  background-image: url(/img/gift.png);
+  background-image: url(/img/apple/gift.png);
   background-color: #FBFBFB;
 }
 
 .product--card {
-  background-image: url(/img/card.png);
+  background-image: url(/img/apple/card.png);
   background-color: #FBFBFB;
 }
 

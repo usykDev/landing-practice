@@ -1,13 +1,14 @@
-{{! 
-Це код container файлу для index сторінки, 
-в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
- }}
+<div class="container">
+	<div class="heading">
+		<div class="title">Hello!</div>
+		<div class="subtitle">Here you can check my landing pages</div>
+	</div>
 
-<div >
-  Hello world!
+	<nav>
+		<ul>
+			<li><a href="/" class="link">Main</a></li>
+			<li><a href="/apple" class="link" target="_blank">Apple</a></li>
+			<li><a href="/slack" class="link" target="_blank">Slack</a></li>
+		</ul>
+	</nav>
 </div>
-
-{{! 
-    Цей код містить лише те, що буде виводитись в <body>
-    Адже наш layout/default.hbs має вже структуру HTML
-}}

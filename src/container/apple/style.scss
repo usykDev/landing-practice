@@ -178,15 +178,15 @@
 
 
 $productImage: (
-	'iphone-pro' '/img/iphone_pro.png' #000,
-	'iphone' '/img/iphone.png' #fafafa,
-	'trade-in' '/img/trade_in.png' #FBFBFD,
-	'conference' '/img/conference.png' #000,
-	'iwatch''/img/iwatch.png' #000,
-	'ipad' '/img/ipad.png' #FBFBFB,
-	'small_business' '/img/small_business.png' #000,
-	'gift' '/img/gift.png' #FBFBFB,
-	'card' '/img/card.png' #FBFBFB
+	'iphone-pro' '/img/apple/iphone_pro.png' #000,
+	'iphone' '/img/apple/iphone.png' #fafafa,
+	'trade-in' '/img/apple/trade_in.png' #FBFBFD,
+	'conference' '/img/apple/conference.png' #000,
+	'iwatch''/img/apple/iwatch.png' #000,
+	'ipad' '/img/apple/ipad.png' #FBFBFB,
+	'small_business' '/img/apple/small_business.png' #000,
+	'gift' '/img/apple/gift.png' #FBFBFB,
+	'card' '/img/apple/card.png' #FBFBFB
 );
 
 @each $class, $url, $color in $productImage {
