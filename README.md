@@ -1,4 +1,4 @@
-Landing pages with responsive design
+Landing pages with adaptive design
 
 Build command: npm install
 
